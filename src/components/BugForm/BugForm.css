@@ -1,0 +1,46 @@
+/* BugForm.css */
+.bug-form {
+    background-color: #fff; /* Set the background color */
+    padding: 20px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Add border for a cleaner look */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift effect */
+    width: 300px; /* Set the width */
+  }
+  
+  .bug-form label {
+    display: block; /* Display labels as blocks for stacking */
+    margin-bottom: 5px; /* Add margin below labels for spacing */
+  }
+  
+  .bug-form input,
+  .bug-form select,
+  .bug-form textarea {
+    width: 100%; /* Set input fields to full width */
+    padding: 8px; /* Add padding for input fields */
+    margin-bottom: 10px; /* Add margin below input fields for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .bug-form .button-container {
+    display: flex; /* Use flexbox for button alignment */
+    justify-content: space-between; /* Space buttons evenly */
+  }
+  
+  .bug-form button {
+    padding: 10px; /* Add padding for buttons */
+    width: 48%; /* Set button width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  /* Add media query for responsive design if needed */
+  @media (max-width: 600px) {
+    .bug-form {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  
+    .bug-form button {
+      width: 100%; /* Adjust button width for smaller screens */
+    }
+  }
+  
